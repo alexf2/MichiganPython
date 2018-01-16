@@ -99,3 +99,5 @@ ENV/
 
 # mypy
 .mypy_cache/
+bookmarks.json
+/py4e_code3.zip 
