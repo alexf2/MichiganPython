@@ -1,0 +1,46 @@
+Учебные материалы по асинхронности в Python. 
+ 
+Python FREE in 8-Week: https://habr.com/ru/articles/800289/
+!!! И Roadmap на Хабре: https://habr.com/ru/articles/709102/
+
+Материалы для повторения Python: 
+— 181 бесплатный материал для изучения Python: https://tproger.ru/digest/data-science-python/ 
+— Подборка книг по программированию на Python: https://tproger.ru/books/19-free-python-books/ 
+— Видеокурс «Python для анализа данных»: https://tproger.ru/video/data-analysis-with-python/ 
+ 
+Вводные материалы: 
+— Асинхронное программирование в Python: https://tproger.ru/translations/asynchronous-programm.. 
+— Асинхронные возможности в Python: https://vk.cc/7b4VSA / https://xakep.ru/2017/01/11/python-3-asyncio/
+— Асинхронное программирование при помощи asyncio: https://vk.cc/7b4VYT / https://www.freecodecamp.org/news/tag/python
+— Понимание асинхронного программирования в Python: https://vk.cc/7b4Wa7 
+— Учебное пособие по использованию async/await в Python: https://vk.cc/7b4WhW  / https://stackabuse.com/python-async-await-tutorial/
+ 
+Примеры использования: 
+— Примеры использования асинхронности в Python: https://vk.cc/7b4Wpn 
+— Использование асинхронности в Python с примерами: https://vk.cc/7b4Ww7 
+— GitHub-проект с примером использования async/await в Python: https://vk.cc/7b4WBB 
+— Пример использования асинхронного HTTP запроса: https://vk.cc/7b4WI1 
+ 
+Видеоматериалы по теме поста: 
+1. Лекция «Асинхронное программирование для начинающих». 
+2. Асинхронное программирование в Python. 
+3. Почему стоит использовать asyncio.
+[Ссылка]
+Всё для изучения Python: 181 бесплатный материал + бонус
+	https://tproger.ru/digest/data-science-python/
+
+
+Ссылки на материалы:
+
+!!! https://github.com/vinta/awesome-python
+
+!!! Тут роадмэп, книги и материалы:
+	https://habr.com/ru/articles/709102/
+
+Best:
+	1. Python_К_вершинам_мастерства, _2_е_изд.
+	2. Dead Simple Python.pdf.
+	3. Effective-Python.
+	4. Fauler_Asyncio-i-konkurentnoe-programmirovanie-na-Python.
+	5. Grokaem_Algoritmi_IIllystrirovanoe_posobie_dlia_programmsitov_2017.
+

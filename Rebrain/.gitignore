@@ -6,9 +6,6 @@ __pycache__/
 # C extensions
 *.so
 
-Rebrain/
-py4e_code3.zip
-
 # Distribution / packaging
 .Python
 build/
