@@ -1,9 +1,9 @@
 # from functools import reduce
 
-# Генератор хранит в памяти не элементы, а внутреннее состояние для вычисления очередного элемента. 
+# Генератор хранит в памяти не элементы, а внутреннее состояние для вычисления очередного элемента.
 # На каждом шаге можно вычислить только следующий элемент, но не предыдущий.
-# Генератор, исчерпавший все свои значения, помнит своё состояние («я всё сделал!»), 
-# поэтому повторное обращение к нему не вернёт никакого результата. Второй раз подряд проитерироваться по генератору 
+# Генератор, исчерпавший все свои значения, помнит своё состояние («я всё сделал!»),
+# поэтому повторное обращение к нему не вернёт никакого результата. Второй раз подряд проитерироваться по генератору
 # не получится.
 
 
@@ -120,3 +120,20 @@ digits = (digit ** 2 for digit in numbers if digit % 3 == 0)
 # summ = reduce(lambda prev, el: prev + el ** 2, digits, 0)
 summ2 = sum(digits)
 print(summ2)
+
+
+class ArithmeticProgression:
+    def __init__(self, begin, step, end=None):
+        self.begin = begin
+        self.step = step
+        self.end = end  # None -> "бесконечный" ряд
+
+    def __iter__(self):
+        result_type = type(self.begin + self.step)
+        result = result_type(self.begin)
+        forever = self.end is None
+        index = 0
+        while forever or result < self.end:
+            yield result
+            index += 1
+            result = self.begin + self.step * index

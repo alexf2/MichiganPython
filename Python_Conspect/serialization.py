@@ -10,8 +10,9 @@ class Vector:
         return (bytes([ord(self.typecode)]) + bytes(self._components))
 
     @classmethod
+    # альтернативный конструктор для десериализации
     def frombytes(cls, octets):
         typecode = chr(octets[0])
         memv = memoryview(octets[1:]).cast(typecode)
 
-        return cls(memv)
+        return cls(*memv)

@@ -11,7 +11,7 @@ from functools import singledispatch
 Стандартные декораторы: functools.wraps,  property,	 classmethod и staticmethod.
     functools.cache - мемоизация параметров функции
     
-    @functools.cache
+    @functools.cache # мемоизация параметров функции
     def fibonacci(n):
         if n < 2:
             return n
@@ -152,3 +152,17 @@ class clock_dec:
             print(self.fmt.format(**locals()))
             return _result
         return clocked
+
+
+class Demo:
+    # Обычный метод экземпляра
+    def instmeth(self, *args):
+        return args
+
+    @classmethod  # этот декоратор приводит к передаче первым параметром не self, а объекта для класса
+    def klassmeth(cls, *args):
+        return args
+
+    @staticmethod  # при этом декораторе нет неявных аргументов
+    def statmeth(*args):
+        return args
